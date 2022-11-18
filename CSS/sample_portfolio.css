@@ -86,6 +86,13 @@ p:hover {
 .center {
     text-align: center;
     /* This center aligns the text */
+    width: 80%;
+    margin: auto;
+    
+}
+
+.cen{
+    width: 100%;
 }
 
 /* Center align elements hover effect - This only affects the quote, github link, and footer */
@@ -277,6 +284,7 @@ footer {
     -webkit-animation: moveVideoText 5.75s;
     /* Animation for Safari 4.0 - 8.0 */
     animation: moveVideoText 5.75s;
+    text-align: center;
     /* moveVideoText animation set to 5.75s to match the movenavText animation */
 }
 
